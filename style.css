@@ -1,0 +1,149 @@
+.body{
+    /* display: flex; */
+    margin: 0 10%;
+}
+.btn-outline-success{
+    background-color: green;
+    color: white;
+    margin: 0 10px ;
+}
+.btn-outline-success:hover{
+    background-color: white;
+    color: black;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.dropdown{
+    border: 1px black solid;
+    border-radius: 8px;
+}
+.container-2{
+    font-size: 1rem;
+    height: 75vh;
+    /* background-image: url(https://images.unsplash.com/photo-1629905679177-4c4e2623654f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fGpvYiUyMGludGVydmlld3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60); */
+    background-image: url('ok.jpg');
+    /* background-color: blanchedalmond; */
+    /* border: 2px solid black; */
+    background-size: cover;
+    display: flex;
+}
+.container-2 .description{
+    /* margin-top: 3rem; */
+    font-size: 1rem;
+    text-align: center;
+    padding: 10% 15% 10% 15%;
+    /* border: 2px solid purple; */
+}
+.container-2 .description .maincontent{
+    font-size: 2.5rem;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+
+}
+.container-2 .description .subcontent{
+    font-size: 1.2rem;
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+@media(max-width:710px){
+    .container-2{
+        height: 100vh;
+    }
+}
+@media(max-width:500px){
+    .container-2{
+        height: 140vh;
+    }
+}
+.container-2 .description .applybtn{
+    margin: 20px;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.card2{
+    width: 350px;
+    border: 3px solid black;
+    display: inline-block;
+    padding: 18px;
+    margin: 20px 40px;
+    border-radius: 20px;
+}
+.card2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#mycards{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media(max-width:700px){
+    #mycards{
+        flex-wrap: wrap;
+    }
+}
+.btn{
+    box-shadow: 2px white;
+}
+.workflow h1{
+    margin: 4% 0;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+/* footer css start  */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a6a6a9;
+    padding: 40px 80px;
+  }
+
+  .footer .copywrite {
+    color: #fff;
+  }
+
+  .bottom-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .bottom-links .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+
+  .bottom-links .links span {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+
+  .bottom-links .links a {
+    text-decoration: none;
+    color: #0a0202;
+    padding: 10px 20px;
+  }
+  .bottom-links .links i{
+    color: #0a0202;
+  }
+/* css footer end */
